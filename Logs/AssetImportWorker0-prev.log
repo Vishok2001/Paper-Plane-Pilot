@@ -1,0 +1,342 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32608 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jvish/Paper Plane Pilot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51558
+Successfully changed project path to: C:/Users/jvish/Paper Plane Pilot
+C:/Users/jvish/Paper Plane Pilot
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6528] Host "[IP] 169.254.83.185 [Port] 0 [Flags] 2 [Guid] 2258201227 [EditorId] 2258201227 [Version] 1048832 [Id] WindowsEditor(7,Vishok) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6528] Host "[IP] 169.254.83.185 [Port] 0 [Flags] 2 [Guid] 2258201227 [EditorId] 2258201227 [Version] 1048832 [Id] WindowsEditor(7,Vishok) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 8.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jvish/Paper Plane Pilot/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2805)
+    Vendor:   NVIDIA
+    VRAM:     16109 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004841 seconds.
+- Loaded All Assemblies, in  0.226 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.162 seconds
+Domain Reload Profiling: 386ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (163ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+TypeRef ResolutionScope not yet handled (218) for .IMergeView in image C:\Users\jvish\Paper Plane Pilot\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  0.414 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:ShowUpdateReport due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:UpdateUpdateReportList due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:GetErrorDetailsText due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:DoErrorDetailsTextArea due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:Create due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 797ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (244.2 KB). Loaded Objects now: 4514.
+Memory consumption went from 146.1 MB to 145.9 MB.
+Total: 2.208800 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.864500 ms  DeleteObjects: 0.137500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: fa07261737969afd534745fdbb5a9ba0 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:unityplastic: 80ce6fce021ee75cb20edaadb7bf11e0 -> 3c30bc2c6029bd937aec52f5f186acab
+========================================================================
+Received Import Request.
+  Time since last request: 765269.606668 seconds.
+  path: Assets/paper_airplane_0.blend
+  artifactKey: Guid(f275e196407b92d4bb03159f501713be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/paper_airplane_0.blend using Guid(f275e196407b92d4bb03159f501713be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9160c8cb9e2134347a7ab8c7d3ab46b') in 0.007562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.602706 seconds.
+  path: Assets/AbstractRTSModels
+  artifactKey: Guid(f8e7c3b14e8a870419e1758a62171691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels using Guid(f8e7c3b14e8a870419e1758a62171691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642a190ae4d40e03a8c27ca2f39b53f') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073720 seconds.
+  path: Assets/AbstractRTSModels/Aircraft1.obj
+  artifactKey: Guid(79104334a56a9a74f8b986aa49260348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/Aircraft1.obj using Guid(79104334a56a9a74f8b986aa49260348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ca48d648359528b6d7c2936241257b') in 0.202045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.222498 seconds.
+  path: Assets/AbstractRTSModels/AntiAirTank1.obj
+  artifactKey: Guid(122cec61a51772543a789055034db361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/AntiAirTank1.obj using Guid(122cec61a51772543a789055034db361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889a8a1e21125a7a2277354bdb3d48fd') in 0.014011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.405443 seconds.
+  path: Assets/AbstractRTSModels/AntiAirTank2.obj
+  artifactKey: Guid(11a291a936e41a443bfcf30d0b7cbee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/AntiAirTank2.obj using Guid(11a291a936e41a443bfcf30d0b7cbee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6fa125622b90f7782f8f378a4ea1d1') in 0.016943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.410267 seconds.
+  path: Assets/AbstractRTSModels/AntiAirTurret3.obj
+  artifactKey: Guid(45cafe8d0622f4742b38af1bf4c816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/AntiAirTurret3.obj using Guid(45cafe8d0622f4742b38af1bf4c816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdac2df0ee03c59ddfda40f8cbacad3') in 0.015910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.422656 seconds.
+  path: Assets/AbstractRTSModels/overview.png
+  artifactKey: Guid(91e88ad3ea92da341803c66e267aba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/overview.png using Guid(91e88ad3ea92da341803c66e267aba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b38ac4d8c210d13a7b62a400826183') in 0.024101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AbstractRTSModels/Turret3.obj
+  artifactKey: Guid(b24158e0c11bd77429ac51035b7a3ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/Turret3.obj using Guid(b24158e0c11bd77429ac51035b7a3ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adeadb0c265f14bcd7efa851ab6830f9') in 0.011546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AbstractRTSModels/Factory.obj
+  artifactKey: Guid(e289f9f6d46ab9f4d83b5437a4c25002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/Factory.obj using Guid(e289f9f6d46ab9f4d83b5437a4c25002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fd81ac773bb7bd577c6b971dbf3b06') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AbstractRTSModels/AntiAirTurret1.obj
+  artifactKey: Guid(800f728a3a7679e4fa81c3878285302c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/AntiAirTurret1.obj using Guid(800f728a3a7679e4fa81c3878285302c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62179d61e4ddb8fc305f0516c88695c8') in 0.011275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AbstractRTSModels/Turret2.obj
+  artifactKey: Guid(ff4bbbf01382e2a4bb6fa58093f80a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/Turret2.obj using Guid(ff4bbbf01382e2a4bb6fa58093f80a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e89015e35f1ba5080d71e8522c7a20') in 0.012637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AbstractRTSModels/GroundTile.obj
+  artifactKey: Guid(7a946d95dabb3954d8b4f5bf6d17d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/GroundTile.obj using Guid(7a946d95dabb3954d8b4f5bf6d17d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4874b7455b8a3a42729403272d35095e') in 0.012604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AbstractRTSModels/Aircraft3.obj
+  artifactKey: Guid(562efb71c8b3ade418df436005c776bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/Aircraft3.obj using Guid(562efb71c8b3ade418df436005c776bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9d0a6086d7dd54c7535f9208b0dd32') in 0.012819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 20.765688 seconds.
+  path: Assets/AbstractRTSModels/textures/Aircraft3_diffuse.png
+  artifactKey: Guid(445934940f1026943b37e8c31de47d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/textures/Aircraft3_diffuse.png using Guid(445934940f1026943b37e8c31de47d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e47f83d3be93763f307cf0cce2b499') in 0.016658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AbstractRTSModels/textures/Factory_diffuse.png
+  artifactKey: Guid(ed39d33733d1b674a8b45e2d1b2d8b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/textures/Factory_diffuse.png using Guid(ed39d33733d1b674a8b45e2d1b2d8b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a5b82df2e66a1f7ade60a9d6607ab5') in 0.014204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AbstractRTSModels/textures/GroundBlockBig_diffuse.png
+  artifactKey: Guid(d5f1c40b5f22e9c479eafeae2620dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/textures/GroundBlockBig_diffuse.png using Guid(d5f1c40b5f22e9c479eafeae2620dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6613c57c28d7a498983b0cc1e32e818') in 0.037215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AbstractRTSModels/textures/AirTank2_diffuse.png
+  artifactKey: Guid(98ed97b79373b3f40a4e4ecddfd861b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/textures/AirTank2_diffuse.png using Guid(98ed97b79373b3f40a4e4ecddfd861b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8056c67c0da817cdbab97e23c6093b87') in 0.032787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AbstractRTSModels/textures/Tank1_diffuse.png
+  artifactKey: Guid(7f672926cc9079344a872c55a02359c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AbstractRTSModels/textures/Tank1_diffuse.png using Guid(7f672926cc9079344a872c55a02359c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc7f69b6fe2622fdcc8f763ebe13e92') in 0.041911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
