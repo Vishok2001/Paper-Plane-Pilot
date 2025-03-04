@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PaperPlaneController : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class PaperPlaneController : MonoBehaviour
         if (collision.CompareTag("Obstacle"))
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
