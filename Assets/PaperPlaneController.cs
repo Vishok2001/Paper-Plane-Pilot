@@ -1,45 +1,47 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class PaperPlaneController : MonoBehaviour
 {
-    public float speed = 5f;
-    public float tiltSpeed = 2f;
-    public float liftSpeed = 10f;
+    public float tiltSpeed = 100f;
+    public float moveSpeed = 5f;
+    public float forwardSpeed = 2f;
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(speed, rb.velocity.y);
-
-        float tilt = Input.GetAxis("Horizontal") * tiltSpeed;
+        // Tilting
+        float tilt = Input.GetAxis("Horizontal") * tiltSpeed * Time.deltaTime;
         transform.Rotate(0, 0, -tilt);
 
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-        {
-            rb.AddForce(Vector2.up * liftSpeed * Time.deltaTime);
-        }
-        else if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            rb.AddForce(Vector2.down * liftSpeed * Time.deltaTime);
-        }
+        // Move Up & Down
+        float vertical = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        transform.position += new Vector3(0, vertical, 0);
+
+        // Restrict movement within the camera bounds
+        Vector3 pos = transform.position;
+        float screenTop = Camera.main.orthographicSize;  // Top of the screen
+        float screenBottom = -Camera.main.orthographicSize;  // Bottom of the screen
+        pos.y = Mathf.Clamp(pos.y, screenBottom, screenTop);
+        transform.position = pos;
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Obstacle")) // Make sure the obstacle has the "Obstacle" tag
+        if (collision.CompareTag("Obstacle"))
         {
-            FindObjectOfType<Score>().AddScore(10); // Adds 10 points
-            Destroy(gameObject); // Destroy the paper plane
+            Destroy(gameObject);
         }
     }
 }
