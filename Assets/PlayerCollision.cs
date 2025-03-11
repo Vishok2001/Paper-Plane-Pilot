@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    void Start()
+    {
+        GetComponent<Collider2D>().enabled = false;
+        Invoke(nameof(EnableCollider), 0.5f); // Enable after 0.5 seconds
+    }
+
+    void EnableCollider()
+    {
+        GetComponent<Collider2D>().enabled = true;
+    }
+
+
     // This function will be called when the player collides with another object
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerCollision2D(Collision2D collision)
     {
         // Check if the collided object has the "Obstacle" tag
         if (collision.gameObject.CompareTag("Obstacle"))

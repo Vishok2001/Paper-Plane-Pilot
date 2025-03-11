@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 1904071040}
   - component: {fileID: 1904071042}
   - component: {fileID: 1904071043}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PaperPlaneObj
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1208,7 +1208,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

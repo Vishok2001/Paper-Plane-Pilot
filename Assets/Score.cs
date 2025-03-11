@@ -9,6 +9,8 @@ public class Score : MonoBehaviour
     public TMP_Text scoreText; // Reference to the UI Text
     private int score = 0; // Player's score
 
+    public static int finalScore = 0;
+
     void Start()
     {
         if (scoreText == null)
@@ -42,5 +44,11 @@ public class Score : MonoBehaviour
         {
             Debug.LogError("Score Text UI is not assigned in ScoreManager!");
         }
+    }
+
+    public void EndGame()
+    {
+        finalScore = score;
+        Debug.Log("Final Score: " + finalScore);
     }
 }

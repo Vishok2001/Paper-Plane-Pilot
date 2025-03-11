@@ -7,17 +7,18 @@ using TMPro;
 
 public class GameOverScene : MonoBehaviour
 {
-    public TMP_Text scoreText;
+    public TMP_Text finalScoreText;
     // Start is called before the first frame update
     void Start()
     {
-        int finalScore = PlayerPrefs.GetInt("FinalScore", 0);
-        scoreText.text = "Score: " + finalScore;
+        int finalScore = PlayerPrefs.GetInt("Score", 0);
+        finalScoreText.text = "Score: " + finalScore.ToString(); // Display the saved score
+   
     }
 
     // Update is called once per frame
     void Update()
     {
-       // SceneManager.LoadScene("Game");
+        // SceneManager.LoadScene("Game");
     }
 }
