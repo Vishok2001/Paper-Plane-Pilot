@@ -14,8 +14,9 @@ public class ObstacleMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
-        if (transform.position.x < -10f) 
+        transform.position += Vector3.left * speed * Time.deltaTime;
+
+        if (transform.position.x < -15f)
         {
             Destroy(gameObject);
         }

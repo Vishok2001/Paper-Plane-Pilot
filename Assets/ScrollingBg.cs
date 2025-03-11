@@ -6,18 +6,24 @@ public class ScrollingBg : MonoBehaviour
 {
     public float scrollSpeed = 1f;
     private Vector2 startPosition;
+    private float backgroundWidth;
 
     // Start is called before the first frame update
     void Start()
     {
-        startPosition = transform.position;
+        //startPosition = transform.position;
+        backgroundWidth = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float newPosX = Mathf.Repeat(Time.time * scrollSpeed, 20); // Adjust 20 to the background's width
-        transform.position = startPosition + Vector2.left * newPosX;
+        transform.position -= new Vector3(scrollSpeed * Time.deltaTime, 0, 0);
+
+        if (transform.position.x <= startPosition.x - backgroundWidth)
+        {
+            transform.position += new Vector3(backgroundWidth * 2, 0, 0);
+        }
 
     }
 }
