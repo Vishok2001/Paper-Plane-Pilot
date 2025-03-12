@@ -11,8 +11,8 @@ public class GameOverScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int finalScore = PlayerPrefs.GetInt("Score", 0);
-        finalScoreText.text = "Score: " + finalScore.ToString(); // Display the saved score
+        int finalScore = PlayerPrefs.GetInt("Final Score", 0);
+        finalScoreText.text = "Final Score: " + finalScore.ToString(); // Display the saved score
    
     }
 
