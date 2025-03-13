@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
 public class Score : MonoBehaviour
 {
     public TMP_Text scoreText; // Reference to the UI Text
-    private int score = 0; // Player's score
+    public int score = 0; // Player's score
 
-    public static int finalScore = 0;
+    public int finalScore = 0;
+
+    public Score scoree;
 
     void Start()
     {
@@ -48,7 +51,12 @@ public class Score : MonoBehaviour
 
     public void EndGame()
     {
-        finalScore = score;
-        Debug.Log("Final Score: " + finalScore);
+        Debug.Log("EndGame() Triggered!");
+        //score = finalScore;
+        //finalScore = score;
+        PlayerPrefs.SetInt("Final Score", score);
+        PlayerPrefs.Save();
+        //SceneManager.LoadScene("GameOver");
+        Debug.Log("Final Score: " + score);
     }
 }

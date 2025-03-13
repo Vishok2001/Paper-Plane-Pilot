@@ -12,7 +12,19 @@ public class GameOverScene : MonoBehaviour
     void Start()
     {
         int finalScore = PlayerPrefs.GetInt("Final Score", 0);
-        finalScoreText.text = "Final Score: " + finalScore.ToString(); // Display the saved score
+        Debug.Log("Loaded Final Score: " + finalScore);
+
+        if (finalScoreText != null)
+        {
+            finalScoreText.text = "Score: " + finalScore.ToString(); // Display the saved score
+            
+        }
+        else
+        {
+            Debug.LogError("finalScoreText is not assigned in the Inspector!");
+        }
+
+
    
     }
 
