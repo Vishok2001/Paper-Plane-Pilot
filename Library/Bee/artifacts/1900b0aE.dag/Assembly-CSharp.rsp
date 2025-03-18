@@ -377,19 +377,16 @@
 "Assets/GameManager.cs"
 "Assets/GameOverScene.cs"
 "Assets/HowToPlayScene.cs"
-"Assets/NewBehaviourScript.cs"
 "Assets/ObstacleMover.cs"
 "Assets/ObstacleSpawn.cs"
 "Assets/PaperPlaneController.cs"
 "Assets/PlayerCollision.cs"
 "Assets/Points.cs"
-"Assets/PointsMovement.cs"
 "Assets/Restart.cs"
 "Assets/Score.cs"
 "Assets/ScrollingBg.cs"
 "Assets/StartGame.cs"
 "Assets/StartScene.cs"
-"Assets/TestPlayerPrefs.cs"
 -langversion:9.0
 
 /deterministic
