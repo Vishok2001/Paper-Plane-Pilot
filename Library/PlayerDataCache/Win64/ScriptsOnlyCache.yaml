@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -51,8 +50,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -136,35 +133,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 4074}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 4084}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 9738}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 7098}
+      Script: {instanceID: 9750}
     - Class: 114
-      Script: {instanceID: 7220}
+      Script: {instanceID: 9758}
     - Class: 114
-      Script: {instanceID: 7408}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 8584}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 25296}
+      Script: {instanceID: 25346}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,33 +204,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 2528}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 4074}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 4084}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 9750}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 9766}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 7408}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -274,23 +271,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 7262}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 7408}
+      Script: {instanceID: 9726}
     - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9762}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -335,33 +332,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 2362}
+      Script: {instanceID: 2360}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 2528}
+      Script: {instanceID: 3172}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 4074}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 4798}
     - Class: 114
-      Script: {instanceID: 4084}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 6768}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 9742}
     - Class: 114
-      Script: {instanceID: 7408}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9398}
+      Script: {instanceID: 9778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -443,12 +440,6 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f214d698a81fb9650366ef817230c0fa
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Restart
-  - hash:
-      serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -495,18 +486,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.PixelPerfect
     namespaceName: UnityEngine.U2D
     className: CinemachinePixelPerfect
-  - hash:
-      serializedVersion: 2
-      Hash: 6e90220daf5de780628f4294215d6ea8
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HowToPlayScene
-  - hash:
-      serializedVersion: 2
-      Hash: 358cc50028339de2de237524c7302ef6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StartGame
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -567,12 +546,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 733888ad7d782e06cb53065ea7502f90
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Score
   - hash:
       serializedVersion: 2
       Hash: e9db29e31ba60222fa1690a9445f34f5
@@ -639,12 +612,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
-  - hash:
-      serializedVersion: 2
-      Hash: 6951291e42444b73504d232745c8352d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Points
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -767,12 +734,6 @@ ScriptsOnlyBuild:
     className: AdvancedRuleOverrideTile
   - hash:
       serializedVersion: 2
-      Hash: 3607e2f6aa28b7173fced11bf263fd9b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerCollision
-  - hash:
-      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -851,12 +812,6 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: 6878e4c616b1f7100cf2e529832ff89e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameController
-  - hash:
-      serializedVersion: 2
       Hash: ca7965796a6fc0e5baad4cb19f5b5ded
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -903,12 +858,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
     className: BufferManager
-  - hash:
-      serializedVersion: 2
-      Hash: f9e8dd3dcc3e5e554c89723858260b88
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameOverScene
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -1091,28 +1040,10 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 191d0073f231e8b5811c03ecdb7dfdef
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ObstacleMover
-  - hash:
-      serializedVersion: 2
-      Hash: 96a566cdf3893e7063e18f32e2c2589e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PaperPlaneController
-  - hash:
-      serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 7c1883ffeab094ceec43c62ae771b7f1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StartScene
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1307,12 +1238,6 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 809860102cd740862838b3cd679d9d68
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ObstacleSpawn
-  - hash:
-      serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1391,18 +1316,6 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
-      Hash: 25d14bff0361f142a8859bff92cdc69f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ScrollingBg
-  - hash:
-      serializedVersion: 2
-      Hash: e47d77dff9f7fd0f54480d10a98b411f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1449,11 +1362,95 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7c1883ffeab094ceec43c62ae771b7f1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StartScene
+  - hash:
+      serializedVersion: 2
+      Hash: 3607e2f6aa28b7173fced11bf263fd9b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 6951291e42444b73504d232745c8352d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Points
+  - hash:
+      serializedVersion: 2
+      Hash: 809860102cd740862838b3cd679d9d68
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObstacleSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: 6e90220daf5de780628f4294215d6ea8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HowToPlayScene
+  - hash:
+      serializedVersion: 2
+      Hash: 191d0073f231e8b5811c03ecdb7dfdef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObstacleMover
+  - hash:
+      serializedVersion: 2
+      Hash: 6878e4c616b1f7100cf2e529832ff89e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: e47d77dff9f7fd0f54480d10a98b411f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 96a566cdf3893e7063e18f32e2c2589e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PaperPlaneController
+  - hash:
+      serializedVersion: 2
+      Hash: 25d14bff0361f142a8859bff92cdc69f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScrollingBg
+  - hash:
+      serializedVersion: 2
+      Hash: f214d698a81fb9650366ef817230c0fa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Restart
+  - hash:
+      serializedVersion: 2
+      Hash: f9e8dd3dcc3e5e554c89723858260b88
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOverScene
+  - hash:
+      serializedVersion: 2
+      Hash: 733888ad7d782e06cb53065ea7502f90
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Score
+  - hash:
+      serializedVersion: 2
+      Hash: 358cc50028339de2de237524c7302ef6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StartGame
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/HowToPlay.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/jvish/Desktop/Vishok's Games/Paper Plane Pilot/Paper Plane
+  playerPath: C:/Users/jvish/OneDrive/Desktop/Paper Plane Pilot Game/Paper Plane
     Pilot.exe
